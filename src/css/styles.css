@@ -1,0 +1,41 @@
+.button-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 410;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  background-image: none;
+  border: none;
+  outline: none;
+  background-color: #f56464;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.button-hidden {
+  background-color: #313030;
+}
+
+.movi-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.movi-list_item {
+  list-style: none;
+}
+
+.movi-list_wrapper {
+  max-width: 300px;
+  max-height: 450px;
+}
